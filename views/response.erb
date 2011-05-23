@@ -1,0 +1,15 @@
+<div class="wrapper">
+    <p>Config params:</p>
+    <ul>
+        <% for key, value in @request.user.config %>
+            <li><%= h key %> = <%= h value %></li>
+        <% end %>
+    </ul>
+
+    <p>Request params:</p>
+    <ul>
+        <% for key, value in @request.params %>
+            <li><%= h key %> = <%= h value %></li>
+        <% end %>
+    </ul>
+</div>

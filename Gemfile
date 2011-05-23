@@ -1,0 +1,12 @@
+source :rubygems
+gem 'sinatra'
+gem 'thin'
+gem 'activesupport'
+gem 'actionpack'
+gem 'andand'
+gem 'ampex'
+gem 'haml'
+gem 'datamapper'
+gem 'dm-types'
+gem 'dm-sqlite-adapter'
+gem 'dm-postgres-adapter'

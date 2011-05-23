@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<h2>Set up your Raplet</h2>
+
+<form action="/config" method="POST">
+    <!-- Pass through the OAuth parameters -->
+    <input type="hidden" name="redirect_uri"  value="<%= h params[:redirect_uri]  %>">
+    <input type="hidden" name="response_type" value="<%= h params[:response_type] %>">
+    <input type="hidden" name="client_id"     value="<%= h params[:client_id]     %>">
+
+    <!-- Here you can ask the user for whatever you need to know: their
+         login details, any preferences etc. account_name is just an example. -->
+    <p>
+        <label for="account_name">Account name:</label>
+        <input type="text" id="account_name" name="config[account_name]">
+    </p>
+    <p>
+        <input type="submit" value="Install raplet">
+    </p>
+</form>

@@ -1,0 +1,16 @@
+p {
+    margin: 4px 0;
+}
+
+ul {
+    list-style: inside disc;
+    padding: 0;
+}
+
+li {
+    margin: 0 0 0 2px;
+}
+
+div.wrapper {
+    margin: 6px 0;
+}
