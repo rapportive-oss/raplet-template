@@ -1,10 +1,10 @@
 require 'rubygems'
-require 'json/pure'
+require 'bundler/setup'
+require 'json'
 require 'sinatra'
 require 'active_support'
 require 'active_support/core_ext'
 require 'action_view'
-require 'ampex'
 require 'andand'
 
 require File.join(File.dirname(__FILE__), 'user')
