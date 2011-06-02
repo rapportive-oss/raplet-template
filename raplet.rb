@@ -14,6 +14,8 @@ require File.join(File.dirname(__FILE__), 'request')
 class Raplet < Sinatra::Base
   enable :sessions
 
+  set :public, File.join(File.dirname(__FILE__), 'public')
+
   helpers do
     include Rack::Utils
     include ActionView::Helpers::DateHelper

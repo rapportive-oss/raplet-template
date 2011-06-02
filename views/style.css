@@ -14,3 +14,8 @@ li {
 div.wrapper {
     margin: 6px 0;
 }
+
+img.smiley {
+    float: right;
+    padding: 0 0 4px 8px;
+}
